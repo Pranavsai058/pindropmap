@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+#map {
+  height: 100vh;
+  width: 75%;
+  float: left;
+}
+
+#sidebar {
+  padding: 10px;
+  background-color: lightgray;
+  border-left: 1px solid gray;
+  height: 100vh;
+  width: 23%;
+  float: right;
+  overflow-y: auto;
+}
+
+#sidebar h2 {
+  margin-top: 0;
+  color: black;
+}
+
+#pin-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#pin-list li {
+  margin: 10px 0;
+  cursor: pointer;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: darkgray;
+}
+
+#pin-list li:hover {
+  background-color: lightblue;
+}
